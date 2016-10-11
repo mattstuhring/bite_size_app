@@ -1,0 +1,301 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:600';
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.aboutheader {
+  font-family: 'Baloo Paaji', cursive;
+  font-size: 3rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.aboutblock {
+  font-family: 'Open Sans', sans-serif;
+  color: #388E3C;
+  text-shadow: 1px 1px 2px lightgray;
+  margin-left: 5px;
+}
+
+.appBarBun {
+  background-image: url('./images/bun.jpg');
+  background-size: cover;
+}
+
+.logo {
+  width: 19rem;
+  height: 4rem;
+  margin: 0 13%;
+  // margin-right: 28px;
+  // margin-top: 7px;
+}
+
+.paper {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paperSearch {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.cheeseSearch {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px !important;
+  margin-bottom: 2px;
+}
+
+.searchTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 75%;
+  margin-left: 40px;
+}
+
+.registration {
+  margin-top: 16px;
+  width: 260px;
+  margin-left: 3.8rem;
+}
+
+.bottomNav {
+  background-image: url('./images/bun.jpg');
+  background-size: cover;
+}
+
+.cheese {
+  background-image: url('./images/cheese.jpg');
+  background-size: cover;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.lettuce {
+  background-image: url('./images/lettuce.jpg');
+  background-size: cover;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tomato {
+  background-image: url('./images/tomato.jpg');
+  background-size: cover;
+}
+
+.burger {
+  background-image: url('./images/burger.jpg');
+  background-size: cover;
+}
+
+.keyword {
+  background-color: yellow;
+}
+
+.tomatoIcon {
+  background-image: url('./images/tomatoIcon.jpg');
+}
+
+.burgerIcon {
+  background-image: url('./images/burgerIcon.jpg');
+}
+
+.lettuceIcon {
+  background-image: url('./images/lettuceIcon.jpg');
+}
+
+.cheeseIcon {
+  background-image: url('./images/cheeseIcon.jpg');
+}
+
+.regForm {
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.regFormInput {
+  margin-left: 10px;
+  margin-top: 0 !important;
+}
+
+.raisedBtn {
+  margin: 0 auto;
+  padding-left: 1rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.resultForm {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  font-size: 15px;
+}
+
+.resultPhone {
+  margin-top: 10px !important;
+  margin-bottom: 0px;
+}
+
+.resultLink {
+  font-size: 20px;
+  padding-bottom: 10px !important;
+  font-family: 'Sriracha', cursive;
+}
+
+.dialog {
+  padding: 10px !important;
+}
+
+.login {
+  margin-top: 14px;
+  width: 160px;
+  margin-left: 100px;
+}
+
+.loginBackground {
+  background-image: url('./images/loginBackground.jpg');
+  background-size: 321px 259px;
+  background-repeat: no-repeat;
+  height: 251px;
+  margin-left: 30px;
+}
+
+.mustard {
+  background-image: url('./images/mustard.jpg');
+}
+
+.ketchup {
+  background-image: url('./images/ketchup.jpg');
+}
+
+.loginForm {
+  height: 56px;
+  width: 56px;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.menu {
+  width: 49%;
+  margin-top: 7px;
+  margin-left: 5rem;
+}
+
+.welcome {
+  padding: 10px;
+  width: 270px;
+  margin-top: 17px;
+  margin-left: 1.3rem;
+}
+
+.burgerBtn {
+  margin-left: 3.7rem;
+}
+
+.searchBtn {
+  margin-top: 50px;
+  width: 160px;
+}
+
+.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  width: 23rem;
+}
+
+.item {
+  height: 20px;
+  width: 115px;
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+
+.prefSelect {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.burgerResult {
+  width: 120px;
+}
+
+.flexContainer {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.mainContainer {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.prefContainer {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.flexItems {
+  margin-left: 15px;
+}
+
+.preferences {
+  width: 70%;
+  margin-top: 13px;
+}
+
+.about {
+  width: 275px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.aboutPaper {
+  border: 3px dotted #FDD835;
+}
+
+@media (min-width: 800px) {
+  .logo {
+      padding-right: 17%;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+      padding-right: 25%;
+
+  }
+}
